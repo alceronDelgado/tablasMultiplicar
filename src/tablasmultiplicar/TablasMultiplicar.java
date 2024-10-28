@@ -25,6 +25,7 @@ public class TablasMultiplicar {
             for(int j = 1;j < 11;j++){
                 tablas += "\n"+i+"X"+j+" = "+(i * j);
             }
+            tablas = tablas + "\n";
         }
         
         JOptionPane.showMessageDialog(null, tablas);
